@@ -128,7 +128,7 @@ GLProgram GLProgram::link(const GLShader& vertexShader, const GLShader& fragment
 
 QuadRenderer::QuadRenderer()
 {
-    const Vertex vertices[]{
+    const Vertex vertices[] = {
         { -1.0f, 1.0f },
         { -1.0f, -1.0f },
         { 1.0f, 1.0f },

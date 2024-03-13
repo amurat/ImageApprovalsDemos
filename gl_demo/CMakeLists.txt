@@ -22,6 +22,8 @@ set(sources
 
 add_executable(GLDemo ${sources})
 
+set_property(TARGET GLDemo PROPERTY CXX_STANDARD 14)
+
 target_include_directories(
     GLDemo
     PRIVATE
